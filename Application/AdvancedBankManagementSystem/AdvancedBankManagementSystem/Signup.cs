@@ -15,7 +15,7 @@ namespace AdvancedBankManagementSystem
         private Label lblWelcomeLeft, lblSignupHeading, lblSubtitle;
         private Label lblUsername, lblPassword, lblConfirmPassword;
         private TextBox txtUsername, txtPassword, txtConfirmPassword;
-        private Panel pnlUserBorder, pnlPassBorder, pnlConfirmBorder; 
+        private Panel pnlUserBorder, pnlPassBorder, pnlConfirmBorder;
         private Button btnSignup, btnClose;
         private LinkLabel lnkLogin;
 
@@ -40,7 +40,7 @@ namespace AdvancedBankManagementSystem
             this.btnSignup = new Button();
             this.btnClose = new Button();
             this.lnkLogin = new LinkLabel();
-            
+
             this.pnlUserBorder = new Panel();
             this.pnlPassBorder = new Panel();
             this.pnlConfirmBorder = new Panel();
@@ -80,11 +80,10 @@ namespace AdvancedBankManagementSystem
             // === HEADING ===
             this.lblSignupHeading.Text = "Create Account";
             this.lblSignupHeading.Font = new Font("Segoe UI", 22, FontStyle.Bold);
-            // ---> THIS IS THE ONLY LINE THAT CHANGED (Matches the magenta color) <---
-            this.lblSignupHeading.ForeColor = Color.FromArgb(100, 120, 220); 
+            this.lblSignupHeading.ForeColor = Color.FromArgb(100, 120, 220);
             this.lblSignupHeading.Location = new Point(60, 40);
             this.lblSignupHeading.AutoSize = true;
-            
+
             this.lblSubtitle.Text = "Sign up to get started with our banking services.";
             this.lblSubtitle.Font = new Font("Segoe UI", 9);
             this.lblSubtitle.ForeColor = Color.Gray;
@@ -156,7 +155,7 @@ namespace AdvancedBankManagementSystem
             this.btnSignup.FlatStyle = FlatStyle.Flat;
             this.btnSignup.FlatAppearance.BorderSize = 0;
             this.btnSignup.Cursor = Cursors.Hand;
-            this.btnSignup.Paint += DrawGradientButton; 
+            this.btnSignup.Paint += DrawGradientButton;
             this.btnSignup.Click += BtnSignup_Click;
 
             // === LOGIN LINK ===
@@ -173,7 +172,7 @@ namespace AdvancedBankManagementSystem
             this.panelRight.Controls.Add(lblSignupHeading);
             this.panelRight.Controls.Add(lblSubtitle);
             this.panelRight.Controls.Add(lblUsername);
-            this.panelRight.Controls.Add(pnlUserBorder); 
+            this.panelRight.Controls.Add(pnlUserBorder);
             this.panelRight.Controls.Add(lblPassword);
             this.panelRight.Controls.Add(pnlPassBorder);
             this.panelRight.Controls.Add(lblConfirmPassword);
@@ -194,7 +193,7 @@ namespace AdvancedBankManagementSystem
             Panel pnl = sender as Panel;
             using (LinearGradientBrush brush = new LinearGradientBrush(pnl.ClientRectangle, Color.FromArgb(230, 10, 150), Color.FromArgb(10, 200, 240), LinearGradientMode.Horizontal))
             {
-                using (Pen pen = new Pen(brush, 2)) 
+                using (Pen pen = new Pen(brush, 2))
                 {
                     e.Graphics.DrawRectangle(pen, 1, 1, pnl.Width - 2, pnl.Height - 2);
                 }
@@ -234,13 +233,13 @@ namespace AdvancedBankManagementSystem
                 try
                 {
                     con.Open();
-                    
+
                     string checkQuery = "SELECT COUNT(*) FROM Users WHERE Username = @user";
                     using (SqlCommand checkCmd = new SqlCommand(checkQuery, con))
                     {
                         checkCmd.Parameters.AddWithValue("@user", txtUsername.Text.Trim());
                         int userExists = (int)checkCmd.ExecuteScalar();
-                        
+
                         if (userExists > 0)
                         {
                             MessageBox.Show("Username already exists. Please choose a different one.", "Error");
@@ -255,12 +254,14 @@ namespace AdvancedBankManagementSystem
                         cmd.Parameters.AddWithValue("@pass", txtPassword.Text.Trim());
 
                         int result = cmd.ExecuteNonQuery();
+
+                        // ---> THIS IS WHERE YOUR NEW CODE WAS ADDED <---
                         if (result > 0)
                         {
-                            MessageBox.Show("Account created successfully! You can now log in.", "Success");
-                            
-                            LoginScreen login = new LoginScreen();
-                            login.Show();
+                            MessageBox.Show("Account created successfully! Welcome to Smart Banking.", "Success");
+
+                            Dashboard dash = new Dashboard();
+                            dash.Show();
                             this.Hide();
                         }
                         else

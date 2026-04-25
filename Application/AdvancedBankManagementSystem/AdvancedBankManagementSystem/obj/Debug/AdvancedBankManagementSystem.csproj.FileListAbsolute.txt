@@ -17,3 +17,4 @@ C:\Users\user\Documents\GitHub\AdvancedBankManagementSystem\Application\Advanced
 C:\Users\user\Documents\GitHub\AdvancedBankManagementSystem\Application\AdvancedBankManagementSystem\AdvancedBankManagementSystem\bin\Debug\AdvancedBankManagementSystem.exe.config
 C:\Users\user\Documents\GitHub\AdvancedBankManagementSystem\Application\AdvancedBankManagementSystem\AdvancedBankManagementSystem\bin\Debug\AdvancedBankManagementSystem.exe
 C:\Users\user\Documents\GitHub\AdvancedBankManagementSystem\Application\AdvancedBankManagementSystem\AdvancedBankManagementSystem\bin\Debug\AdvancedBankManagementSystem.pdb
+C:\Users\user\Documents\GitHub\AdvancedBankManagementSystem\Application\AdvancedBankManagementSystem\AdvancedBankManagementSystem\obj\Debug\AdvancedBankManagementSystem.LoginScreen.resources

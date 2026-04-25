@@ -3,15 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|c:\\users\\user\\documents\\github\\advancedbankmanagementsystem\\application\\advancedbankmanagementsystem\\advancedbankmanagementsystem\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|c:\\users\\user\\documents\\github\\advancedbankmanagementsystem\\application\\advancedbankmanagementsystem\\advancedbankmanagementsystem\\auditlogscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|solutionrelative:advancedbankmanagementsystem\\auditlogscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|c:\\users\\user\\documents\\github\\advancedbankmanagementsystem\\application\\advancedbankmanagementsystem\\advancedbankmanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|solutionrelative:advancedbankmanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|c:\\users\\user\\documents\\github\\advancedbankmanagementsystem\\application\\advancedbankmanagementsystem\\advancedbankmanagementsystem\\reportsscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|solutionrelative:advancedbankmanagementsystem\\reportsscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|c:\\users\\user\\documents\\github\\advancedbankmanagementsystem\\application\\advancedbankmanagementsystem\\advancedbankmanagementsystem\\fraudalertsscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|solutionrelative:advancedbankmanagementsystem\\fraudalertsscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|c:\\users\\user\\documents\\github\\advancedbankmanagementsystem\\application\\advancedbankmanagementsystem\\advancedbankmanagementsystem\\transactionsscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|solutionrelative:advancedbankmanagementsystem\\transactionsscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|c:\\users\\user\\documents\\github\\advancedbankmanagementsystem\\application\\advancedbankmanagementsystem\\advancedbankmanagementsystem\\accountsscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|solutionrelative:advancedbankmanagementsystem\\accountsscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\advancedbankmanagementsystem\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|solutionrelative:advancedbankmanagementsystem\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|c:\\users\\user\\documents\\github\\advancedbankmanagementsystem\\application\\advancedbankmanagementsystem\\advancedbankmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\advancedbankmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|solutionrelative:advancedbankmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|c:\\users\\user\\documents\\github\\advancedbankmanagementsystem\\application\\advancedbankmanagementsystem\\advancedbankmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\advancedbankmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C376B2FF-77C1-484A-9BF4-2DAB91251616}|AdvancedBankManagementSystem\\AdvancedBankManagementSystem.csproj|solutionrelative:advancedbankmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,42 +58,118 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportsScreen.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\ReportsScreen.cs",
+              "RelativeDocumentMoniker": "AdvancedBankManagementSystem\\ReportsScreen.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\ReportsScreen.cs",
+              "RelativeToolTip": "AdvancedBankManagementSystem\\ReportsScreen.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T17:24:20.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FraudAlertsScreen.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\FraudAlertsScreen.cs",
+              "RelativeDocumentMoniker": "AdvancedBankManagementSystem\\FraudAlertsScreen.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\FraudAlertsScreen.cs",
+              "RelativeToolTip": "AdvancedBankManagementSystem\\FraudAlertsScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T17:23:40.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuditLogScreen.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\AuditLogScreen.cs",
+              "RelativeDocumentMoniker": "AdvancedBankManagementSystem\\AuditLogScreen.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\AuditLogScreen.cs",
+              "RelativeToolTip": "AdvancedBankManagementSystem\\AuditLogScreen.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T17:22:00.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransactionsScreen.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\TransactionsScreen.cs",
+              "RelativeDocumentMoniker": "AdvancedBankManagementSystem\\TransactionsScreen.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\TransactionsScreen.cs",
+              "RelativeToolTip": "AdvancedBankManagementSystem\\TransactionsScreen.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAAAAMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T16:53:55.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountsScreen.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\AccountsScreen.cs",
+              "RelativeDocumentMoniker": "AdvancedBankManagementSystem\\AccountsScreen.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\AccountsScreen.cs",
+              "RelativeToolTip": "AdvancedBankManagementSystem\\AccountsScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T15:44:37.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\Dashboard.cs",
+              "RelativeDocumentMoniker": "AdvancedBankManagementSystem\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\Dashboard.cs",
+              "RelativeToolTip": "AdvancedBankManagementSystem\\Dashboard.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAAAOIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T16:38:24.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Signup.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\Signup.cs",
               "RelativeDocumentMoniker": "AdvancedBankManagementSystem\\Signup.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\Signup.cs",
               "RelativeToolTip": "AdvancedBankManagementSystem\\Signup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAAAB4BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-15T15:59:36.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "AdvancedBankManagementSystem\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\Program.cs",
               "RelativeToolTip": "AdvancedBankManagementSystem\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T15:48:30.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T15:48:30.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\LoginForm.cs",
               "RelativeDocumentMoniker": "AdvancedBankManagementSystem\\LoginForm.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\AdvancedBankManagementSystem\\Application\\AdvancedBankManagementSystem\\AdvancedBankManagementSystem\\LoginForm.cs",
               "RelativeToolTip": "AdvancedBankManagementSystem\\LoginForm.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDUAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAuwMwAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T15:46:55.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T15:46:55.712Z"
             }
           ]
         }

@@ -55,7 +55,7 @@ namespace AdvancedBankManagementSystem
 
             this.lblWelcomeLeft.Text = "Welcome\nBack!";
             this.lblWelcomeLeft.Font = new Font("Segoe UI", 28, FontStyle.Bold);
-            this.lblWelcomeLeft.ForeColor = Color.White; // Matched to Sign Up purple
+            this.lblWelcomeLeft.ForeColor = Color.White;
             this.lblWelcomeLeft.Location = new Point(40, 180);
             this.lblWelcomeLeft.AutoSize = true;
             this.panelLeft.Controls.Add(lblWelcomeLeft);
@@ -201,33 +201,13 @@ namespace AdvancedBankManagementSystem
 
         private void BtnLogin_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(txtUsername.Text) || string.IsNullOrEmpty(txtPassword.Text))
-            {
-                MessageBox.Show("Please enter username and password!", "Error");
-                return;
-            }
+            // Temporarily bypassing the database to test UI navigation
+            MessageBox.Show("UI Test: Login Successful!", "Welcome");
 
-            using (SqlConnection con = new SqlConnection(connectionString))
-            {
-                try
-                {
-                    con.Open();
-                    string query = "SELECT Role FROM Users WHERE Username = @user AND Password = @pass";
-                    using (SqlCommand cmd = new SqlCommand(query, con))
-                    {
-                        cmd.Parameters.AddWithValue("@user", txtUsername.Text.Trim());
-                        cmd.Parameters.AddWithValue("@pass", txtPassword.Text.Trim());
-
-                        object result = cmd.ExecuteScalar();
-                        if (result != null) MessageBox.Show("Login Successful!", "Welcome");
-                        else MessageBox.Show("Invalid credentials!", "Error");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Database error: " + ex.Message);
-                }
-            }
+            // Navigate straight to Dashboard
+            Dashboard dash = new Dashboard();
+            dash.Show();
+            this.Hide();
         }
 
         private void LnkSignUp_Click(object sender, LinkLabelLinkClickedEventArgs e)
